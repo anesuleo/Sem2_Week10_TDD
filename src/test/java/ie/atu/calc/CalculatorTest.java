@@ -16,5 +16,10 @@ public class CalculatorTest {
         myCalc = new Calculator();
         assertEquals(400,myCalc.multiply(20, 20));
     }
+    @Test
+    public void testSubtract(){
+        myCalc = new Calculator();
+        assertEquals(10, myCalc.subtract(20,10));
+    }
 
 }
