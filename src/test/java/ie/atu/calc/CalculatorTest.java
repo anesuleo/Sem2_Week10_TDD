@@ -22,4 +22,9 @@ public class CalculatorTest {
         assertEquals(10, myCalc.subtract(20,10));
     }
 
+    @Test
+    public void testDivide() {
+        myCalc = new Calculator();
+        assertEquals(2, myCalc.divide(20,10));
+    }
 }
